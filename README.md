@@ -8,7 +8,8 @@ I've created this program to practice my C skills. And I'm a beginner...
 ### Installation
 There's no installation required. Simply download latest release and use it in your terminal!
 ### Usage
-Teapass works in format like this: `teapass -l <LENGTH> -t <PASSWD_TYPE>`.
+Teapass works in format like this: `./teapass -l <LENGTH> -t <PASSWD_TYPE>`.
+
 As described above, it accepts two arguments that define desired length of a password and a generation type.
 
 - `-l` flag > accepts integer numbers from 4 to 256;
