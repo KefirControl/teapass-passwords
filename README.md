@@ -6,7 +6,8 @@ I've created this program to practice my C skills. And I'm a beginner...
 
 ---
 ### Installation
-There's no installation required. Simply download latest release and use it in your terminal!
+There's no installation required!
+Download latest release, make it executable and use in your terminal!
 ### Usage
 Teapass works in format like this: `./teapass -l <LENGTH> -t <PASSWD_TYPE>`.
 
@@ -18,4 +19,5 @@ As described above, it accepts two arguments that define desired length of a pas
 Type of generation defines which characters will be used in a password.
 
 **General** - Includes special characters, upper- / lower-case literals and digits.
+
 **PIN** - Includes only digits.
