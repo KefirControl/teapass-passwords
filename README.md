@@ -14,7 +14,7 @@ As described above, it accepts two arguments that define desired length of a pas
 
 - `-l` flag > accepts integer numbers from 4 to 256;
 - `-t` flag > accepts "general" and "pin" values;
-- 
+
 Type of generation defines which characters will be used in a password.
 
 **General** - Includes special characters, upper- / lower-case literals and digits.
