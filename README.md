@@ -3,6 +3,7 @@
 ### General
 Teapass - is a simple password generator written in C.
 I've created this program to practice my C skills. And I'm a beginner...
+
 ---
 ### Installation
 There's no installation required. Simply download latest release and use it in your terminal!
