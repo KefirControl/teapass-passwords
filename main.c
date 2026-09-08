@@ -50,7 +50,7 @@ void parse_options(int argc, char **argv, Options *opts) {
             if (i + 1 < argc) {
                 opts->length = atoi(argv[i + 1]);
                 if (opts -> length < 4 || opts -> length > MAX_LENGTH) {
-                    fprintf(stderr, "Warning: length should be between 4 and %d.\n", MAX_LENGTH);
+                    fprintf(stderr, "Warning: Invalid input! Length should be between 4 and %d.\n", MAX_LENGTH);
                     exit(1);
                 }
                 i += 2;
@@ -65,7 +65,7 @@ void parse_options(int argc, char **argv, Options *opts) {
                     strcmp(argv[i + 1], "pin") == 0) {
                     strcpy(opts->type, argv[i + 1]);
                 } else {
-                    fprintf(stderr, "Warning: invalid type '%s. Use 'general' or 'pin'.\n", argv[i + 1]);
+                    fprintf(stderr, "Warning: invalid type '%s'. Use 'general' or 'pin'.\n", argv[i + 1]);
                     exit(1);
                 }
                 i += 2;
